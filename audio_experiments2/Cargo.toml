@@ -1,8 +1,0 @@
-[package]
-name = "audio_experiments2"
-version = "0.1.0"
-edition = "2021"
-
-[dependencies]
-libpulse-binding = "2.27.1"
-thiserror = "1.0.38"
