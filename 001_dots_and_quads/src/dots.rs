@@ -84,19 +84,19 @@ impl Dot for PassiveDot {
             .color(WHITE)
             .finish();
 
-        //draw.ellipse()
-        //    .w(5.0)
-        //    .h(5.0)
-        //    .xy(self.original_position)
-        //    .color(WHITE)
-        //    .finish();
+        draw.ellipse()
+            .w(5.0)
+            .h(5.0)
+            .xy(self.original_position)
+            .color(WHITE)
+            .finish();
 
-        //draw.line()
-        //    .start(self.position)
-        //    .end(self.original_position)
-        //    .color(WHITE)
-        //    .stroke_weight(5.0)
-        //    .finish();
+        draw.line()
+            .start(self.position)
+            .end(self.original_position)
+            .color(WHITE)
+            .stroke_weight(5.0)
+            .finish();
     }
 }
 
