@@ -1,0 +1,18 @@
+[package]
+name = "bevy_experiments"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+# Enable some optimization for dev build
+[profile.dev]
+opt-level = 1
+
+# Enable full optimization for dependencies in dev build
+[profile.dev.package."*"]
+opt-level = 3
+
+[dependencies]
+bevy = "0.9.1"
+rand = "0.8.5"
